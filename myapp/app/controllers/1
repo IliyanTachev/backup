@@ -1,0 +1,9 @@
+class WelcomeController < ApplicationController
+  def index
+	require 'csv'    
+	CSV.foreach(/home/workspace/myapp/app/controllers/csvfile.csv, :headers => true) do |row|
+  	Moulding.create!(row.to_hash)
+	end
+  end
+  
+end

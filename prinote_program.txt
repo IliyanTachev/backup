@@ -1,0 +1,19 @@
+1. Da imame heroku
+2. html stranica s edno pole(text) i edin button (submit) //moje da vzemem gotin dizain ot bootstrap - ako iskame
+3. kato vuvedem text -> i natisnem submit -> generirame link i kato otvorim tozi link v brauzura trqbva da ni pokaje text
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+form Rails da vidim kak se pravi
+->link
+	tozi submit button si komunikira s cintroler -> controllers
+		->model(zapisvame texta v model)
+
+da search-nem
+->kak se pravqt views i forms
+->da prochetem models
+->active record
+mojem da vurnem URL kato pri suzdavaneto na modelite
+zashtot se suzdava model/1 model/2 model/3 -> url to moje da e: example/1.../2...
